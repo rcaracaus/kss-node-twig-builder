@@ -37,7 +37,7 @@
   "_spec": "rcaracaus/kss-node-twig-builder",
   "_where": "/Users/rob/Desktop/kss-node-twig-styleguide-starter",
   "dependencies": {
-    "kss": "^2.4.0"
+    "kss": "git@github.com:kss-node/kss-node.git#v3.0.0-alpha.1"
   },
   "description": "The default builder for kss-node.",
   "gitHead": "bcc42ba9a3d5a2b5e3cf274efb9e45da6c182a6a",
