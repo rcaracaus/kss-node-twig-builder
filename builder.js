@@ -10,7 +10,7 @@
  * @module kss/builder/base/handlebars
  */
 
-const KssBuilderBase = require(require.resolve("kss-node") + "/base/kss_builder_base.js"),
+const KssBuilderBase = require(require.resolve("kss") + "/base/kss_builder_base.js"),
   marked = require('marked'),
   path = require('path'),
   Promise = require('bluebird');
