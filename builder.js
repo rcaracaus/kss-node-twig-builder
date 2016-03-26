@@ -2,12 +2,7 @@
 'use strict';
 
 /**
- * The `kss/builder/base/handlebars` module loads the KssBuilderBaseHandlebars
- * class, a `{@link KssBuilderBase}` sub-class using Handlebars templating.
- * ```
- * const KssBuilderBaseHandlebars = require('kss/builder/base/handlebars');
- * ```
- * @module kss/builder/base/handlebars
+ * This twig builder loads the KssBuilderBase from 'kss/builder/kss_builder_base.js'
  */
 
 const KssBuilderBase = require("kss/builder/base/kss_builder_base.js"),
@@ -20,17 +15,12 @@ const fs = Promise.promisifyAll(require('fs-extra')),
 
 /**
  * A kss-node builder takes input files and builds a style guide using
- * Handlebars templates.
+ * Twig templates.
  */
-class KssBuilderBaseHandlebars extends KssBuilderBase {
+class KssBuilderBaseTwig extends KssBuilderBase {
 
   /**
-   * Create a KssBuilderBaseHandlebars object.
-   *
-   * ```
-   * const KssBuilderBaseHandlebars = require('kss/builder/base/handlebars');
-   * const builder = new KssBuilderBaseHandlebars();
-   * ```
+   * Create a KssBuilderBaseTwig object on top of KssBuilderBase.
    */
   constructor() {
     super();
@@ -435,10 +425,7 @@ class KssBuilderBaseHandlebars extends KssBuilderBase {
   }
 }
 
-
-
-
-class KssBuilderHandlebars extends KssBuilderBaseHandlebars {
+class KssBuilderTwig extends KssBuilderBaseTwig {
   /**
    * Create a builder object.
    */
@@ -532,4 +519,4 @@ class KssBuilderHandlebars extends KssBuilderBaseHandlebars {
   }
 }
 
-module.exports = KssBuilderHandlebars;
+module.exports = KssBuilderTwig;
