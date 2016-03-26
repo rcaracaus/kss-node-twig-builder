@@ -1,0 +1,55 @@
+{
+  "_args": [
+    [
+      "rcaracaus/kss-node-twig-builder",
+      "/Users/rob/Desktop/kss-node-twig-styleguide-starter"
+    ]
+  ],
+  "_from": "rcaracaus/kss-node-twig-builder",
+  "_id": "kss-node-twig-builder@3.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/kss-node-twig-builder",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/rcaracaus/kss-node-twig-builder/master/package.json",
+      "gitUrl": "git://github.com/rcaracaus/kss-node-twig-builder.git",
+      "httpsUrl": "git+https://github.com/rcaracaus/kss-node-twig-builder.git",
+      "shortcut": "github:rcaracaus/kss-node-twig-builder",
+      "ssh": "git@github.com:rcaracaus/kss-node-twig-builder.git",
+      "sshUrl": "git+ssh://git@github.com/rcaracaus/kss-node-twig-builder.git",
+      "type": "github"
+    },
+    "name": null,
+    "raw": "rcaracaus/kss-node-twig-builder",
+    "rawSpec": "rcaracaus/kss-node-twig-builder",
+    "scope": null,
+    "spec": "github:rcaracaus/kss-node-twig-builder",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git://github.com/rcaracaus/kss-node-twig-builder.git#bcc42ba9a3d5a2b5e3cf274efb9e45da6c182a6a",
+  "_shasum": "a2fdbf0024db285f215bcafaeb5908f443da150c",
+  "_shrinkwrap": null,
+  "_spec": "rcaracaus/kss-node-twig-builder",
+  "_where": "/Users/rob/Desktop/kss-node-twig-styleguide-starter",
+  "dependencies": {},
+  "description": "The default builder for kss-node.",
+  "devDependencies": {
+    "kss": "^2.4.0",
+    "node-sass": "^3.4.2"
+  },
+  "gitHead": "bcc42ba9a3d5a2b5e3cf274efb9e45da6c182a6a",
+  "main": "builder.js",
+  "name": "kss-node-twig-builder",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "sass": "node-sass --output-style compressed kss-assets/kss.scss kss-assets/kss.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.0.0"
+}
