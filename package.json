@@ -1,5 +1,5 @@
 {
-  "name": "kss-node-handlebars-builder",
+  "name": "kss-node-twig-builder",
   "version": "3.0.0",
   "description": "The default builder for kss-node.",
   "main": "builder.js",
